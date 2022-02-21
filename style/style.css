@@ -1,0 +1,49 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap'); /*Menu font*/
+
+* {box-sizing: border-box; margin: 0;}
+
+#header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+}
+
+nav ul {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 17px;
+    list-style-type: none;
+    display: flex;
+    gap: 45px;
+}
+
+nav a {text-decoration: none; color: white; transition: all 0.3s ease-in-out;}
+
+nav li a:hover:not(.active) {
+    color: #555;
+}
+
+.active {
+    color: rgb(194, 0, 0);
+    border-radius: 15%;
+}
+
+#logo img {
+    height: 65px;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+    background-position: 0 40%;
+    background-image: url(1.jpg);
+    background-size: cover;
+    transform: scale(1.1);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
