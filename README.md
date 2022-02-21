@@ -4,4 +4,4 @@ I'm just learning and mastering the skills that i learned from [The Odin Project
 I will be using HTML and CSS with flexbox, to develop this landing page.
 
 ## Live Preview
-It will be added soon!
+If you want to see Live Preview [Click here](https://sphcs013.github.io/landing-pagev2/).
